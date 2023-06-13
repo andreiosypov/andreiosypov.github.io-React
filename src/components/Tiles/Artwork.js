@@ -28,8 +28,6 @@ const Artwork = props => {
     </div>
   ) : null;
 
-  console.log(props);
-
   return (
     <EuiFlexItem>
       <EuiCard

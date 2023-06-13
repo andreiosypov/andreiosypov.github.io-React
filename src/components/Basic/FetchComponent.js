@@ -9,10 +9,6 @@ const FetchComponent = props => {
   //@TODO: fetch data from localstorage first, and if there is nothing, display loading
   if (isLoading) return <LoadingIndicator/>;
 
-  console.log('Weirdness');
-
-  console.log(data);
-
   return (
     data.map(dataItem => props.render(dataItem))
   );
